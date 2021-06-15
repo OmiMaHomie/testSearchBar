@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href = '/css/apples.css' rel = 'stylesheet' type = 'text/css'>
+    <title>Apple Search</title>
+</head>
+<body>
+    <header>
+        <h1> Apples</h1>
+        
+        <div id = 'apple-search-bar'>
+            <form class="example" action = "#">
+                <input type = "text" placeholder = "Search..." name = "search">
+                <button type = "submit"><i class = "fa fa-search"></i></button>
+              </form>
+        </div>
+    </header>
+
+    <main class = 'pt-5'>
+        <div id = 'completeCard'>
+            <div id = 'mainCard' class = 'card border-dark'>
+                <a id = 'granny-smith' href = '#' onclick = 'activate();'>
+                    <img class = 'card-img-top' src = 'https://www.gardeningknowhow.com/wp-content/uploads/2019/04/granny-smith.jpg' alt = 'Granny Smith'>
+                    <div class = 'card-body bg-secondary'>
+                        <h3 class = 'text-center'>Granny Smith</h3>
+                    </div>
+                </a>
+            </div>
+            <div id = 'card-desc' class = 'pt-2'>
+                <div id = 'granny-smith'>
+                    <div class = 'card border-dark'>
+                        <div class = 'card-body bg-secondary'>
+                            <h6 class = 'text-center text-dark'>The granny smith is truly a wonder! This green apple may seem like a disgusting apple at first, but it's sweet and juicy taste well justifies the weird color.</h6>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
+</body>
+<script src = '/js/apples.js'></script>
+</html>

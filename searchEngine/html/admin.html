@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href = '/css/admin.css' rel = 'stylesheet' type = 'text/css'>
+    <title>Admin Page</title>
+</head>
+<body>
+
+<header>
+    <h1 class = 'pt-2'>Administrative Page</h1>
+</header>    
+
+<main>
+    <form class = 'd-flex flex-column'>
+        <div id = 'choose-fruit' class = 'd-flex flex-row py-2'>
+            <h3> Choose a fruit. </h3>
+            <select name = 'fruits' id = "myList" required>
+            <option> Choose a fruit </option>
+            <option> Apple </option>
+            <option> Banana </option>
+        </select>
+        </div>
+
+        <div id = 'input-link' class = 'd-flex flex-row py-2'>
+            <h3> Insert image link. </h3>
+            <input class = 'w-50' type = 'text' id = 'link' name = 'link' required>
+        </div>
+
+        <div id = 'input-desc' class = 'd-flex flew-row py-2'>
+            <h3> Inset image description. </h3>
+            <input class = 'w-50' type = 'text' id = 'desc' name = 'desc' required>
+        </div>
+
+        <submit href = '#' class = 'mx-auto btn-primary text-center w-25' onclick = 'addImage();'><h3>Add Fruit</h3></submit>
+    </form>
+</main>
+    
+</body>
+<script src = '/js/admin.js'></script>
+</html>

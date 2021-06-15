@@ -1,0 +1,27 @@
+#search-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+
+    padding: 5% 0 0 0;
+    color: white;
+}
+
+#search-item {
+    max-width: 40%;
+    width: auto;
+
+    max-height: 50%;
+    height: auto;
+
+    text-align: center;
+}
+
+#img {
+    max-width: 40vw;
+    width: max-content;
+
+    max-height: 60vh;
+    height: max-content;
+}
