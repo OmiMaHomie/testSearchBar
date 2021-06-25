@@ -1,3 +1,3 @@
-function addImage () {
+function getSite () {
     
 }

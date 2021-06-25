@@ -17,33 +17,32 @@
 <main>
     <form class = 'd-flex flex-column'>
         <div id = 'choose-fruit' class = 'd-flex flex-row py-2'>
-            <h3> Choose a fruit. </h3>
-            <select name = 'fruits' id = "myList" required>
-            <option> Choose a fruit </option>
-            <option> Apple </option>
-            <option> Banana </option>
-        </select>
+            <label class = 'fs-3' for = 'page'>Choose a fruit.</label>
+            <select id = 'dropdown' name = 'dropdown'>
+                <option value = 'apples'> apples </option>
+                <option value = 'bananas'> bananas </option>
+            </select>
         </div>
 
         <div id = 'input-link' class = 'd-flex flex-row py-2'>
-            <h3> Insert image link. </h3>
-            <input class = 'w-50' type = 'text' id = 'link' name = 'link' required>
+            <label class = 'fs-3' for = 'url'>Insert URL here</label>
+            <input class = 'w-50' type = 'url' id = 'url' name = 'url' required>
         </div>
 
         <div id = 'input-title' class = 'd-flex flex-row py-2'>
-            <h3> Insert Image Title. </h3>
-            <input class = 'w-50' type = 'text' id = 'title' name = 'title' required>
+            <label class = 'fs-3' for = 'text'>Insert Image Title</label>
+            <input class = 'w-50' type = 'text' id = 'text' name = 'text' required>
         </div>
 
         <div id = 'input-desc' class = 'd-flex flew-row py-2'>
-            <h3> Inset image description. </h3>
-            <input class = 'w-50' type = 'text' id = 'desc' name = 'desc' required>
+            <label class = 'fs-3' for = 'text'>Insert image description</label>
+            <input class = 'w-50' type = 'text' id = 'text' name = 'text' required>
         </div>
 
-        <submit href = '#' class = 'mx-auto btn-primary text-center w-25' onclick = 'addImage();'><h3>Add Fruit</h3></submit>
+        <submit href = '#' class = 'mx-auto btn-primary text-center w-25' onclick = 'getSite();'><h3>Add Fruit</h3></submit>
     </form>
 </main>
     
 </body>
-<script src = '/js/admin.js'></script>
+<script src = '/testSearchBar/js/admin.js'></script>
 </html>
